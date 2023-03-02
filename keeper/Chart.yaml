@@ -1,0 +1,20 @@
+apiVersion: v2
+name: keeper
+version: 1.0.0
+description: Keeper is a tool for monitor certificate expiry date
+type: application
+keywords:
+- monitoring
+- certificates
+- dashboard
+home: github.com/infrastate/keeper
+sources:
+- github.com/infrastate/keeper
+maintainers:
+- name: Infrastate
+  url: github.com/infrastate
+icon: github.com/infrastate/keeper/web/static/infrastate-github-profile.jpg
+appVersion: "1.0.0"
+annotations:
+  app: keeper
+  version: "1.0.0"

@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: keeper
+  labels:
+    app: keeper
+    version: 1.0.0
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: keeper
+  template:
+    metadata:
+      labels:
+        app: keeper
+        version: 1.0.0
+    spec:
+      containers:
+      - name: keeper
+        image: infrastate/keeper:1.0.0
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - mountPath: /config/cfg
+          name: keeper-config
+        securityContext:
+          readOnlyFilesystem: true
+      volumes:
+      - name: keeper-config
+        configMap:
+          name: keeper-config
+          defaultMode: 256
+
