@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: keeper
-        image: infrastate/keeper:1.0.0
+        image: kooberetis/keeper:1.0.0
         ports:
         - containerPort: 8080
         volumeMounts:
