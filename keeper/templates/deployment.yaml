@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: keeper
-        image: kooberetis/keeper:latest
+        image: prokast/keeper:latest
         ports:
         - containerPort: 8080
         volumeMounts:

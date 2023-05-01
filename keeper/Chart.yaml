@@ -7,13 +7,13 @@ keywords:
 - monitoring
 - certificates
 - dashboard
-home: github.com/kooberetis/keeper
+home: github.com/prokast/keeper
 sources:
-- github.com/kooberetis/keeper
+- github.com/prokast/keeper
 maintainers:
 - name: Infrastate
-  url: github.com/kooberetis
-icon: github.com/kooberetis/keeper/web/static/infrastate-github-profile.jpg
+  url: github.com/prokast
+icon: github.com/prokast/keeper/web/static/infrastate-github-profile.jpg
 appVersion: "1.1.1"
 annotations:
   app: keeper
