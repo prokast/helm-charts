@@ -4,7 +4,7 @@ metadata:
   name: keeper-config
   labels:
     app: keeper-config
-    version: 1.1.0
+    version: 1.1.1
 data:
   config.yaml: |-
 {{ .Files.Get "config.yaml" | indent 4 }}

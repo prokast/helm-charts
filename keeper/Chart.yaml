@@ -1,6 +1,6 @@
 apiVersion: v2
 name: keeper
-version: 1.1.0
+version: 1.1.1
 description: Keeper is a tool for monitor certificate expiry date
 type: application
 keywords:
@@ -14,7 +14,7 @@ maintainers:
 - name: Infrastate
   url: github.com/kooberetis
 icon: github.com/kooberetis/keeper/web/static/infrastate-github-profile.jpg
-appVersion: "1.1.0"
+appVersion: "1.1.1"
 annotations:
   app: keeper
-  version: "1.1.0"
+  version: "1.1.1"
