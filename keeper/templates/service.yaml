@@ -4,12 +4,11 @@ metadata:
   name: keeper
   labels:
     app: keeper
-    version: 1.1.1
+    version: {{ .Values.version }}
 spec:
   type: ClusterIP
   selector:
     app: keeper
   ports:
-  - protocol: TCP
+  - name: http
     port: 8080
-    targetPort: 8080

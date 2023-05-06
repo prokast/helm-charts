@@ -3,8 +3,8 @@ kind: ConfigMap
 metadata:
   name: keeper-config
   labels:
-    app: keeper-config
-    version: 1.1.1
+    app: keeper
+    version: 1.1.2
 data:
   config.yaml: |-
 {{ .Files.Get "config.yaml" | indent 4 }}
